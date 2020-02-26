@@ -7,8 +7,8 @@ verify_ssl = true
 
 [packages]
 django = "==3.0.3"
-djangorestframework = "*"
-
+djangorestframework = "==3.11.0"
+psycopg2 = "==2.8.4"
 [requires]
 python_version = "3.7"
 

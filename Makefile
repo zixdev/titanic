@@ -9,7 +9,7 @@ install:
 	docker-compose build
 
 up:
-	docker-compose up -d
+	docker-compose up -d --remove-orphans
 build:
 	docker-compose build
 
